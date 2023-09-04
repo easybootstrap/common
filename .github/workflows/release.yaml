@@ -43,7 +43,7 @@ jobs:
         run: clojure -T:build jar :version \"${VERSION}\"
 
       - name: Deploy on clojars
-        run: echo "deploy"
+        run: echo "deploy ."
         #run: clojure -T:build deploy :version \"${VERSION}\"
         #env:
         #  CLOJARS_USERNAME: ${{ vars.CLOJARS_USERNAME }}
