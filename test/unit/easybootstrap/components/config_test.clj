@@ -1,8 +1,8 @@
 (ns unit.easybootstrap.components.config-test
   (:require [clojure.test :refer [deftest is testing]]
             [com.stuartsierra.component :as component]
-            [matcher-combinators.test :refer [match?]]
-            [easybootstrap.components.config :as config.aero]))
+            [easybootstrap.components.config :as config.aero]
+            [matcher-combinators.test :refer [match?]]))
 
 (defn- create-and-start-system!
   [{:keys [config]}]
