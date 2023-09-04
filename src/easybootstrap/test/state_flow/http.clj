@@ -23,5 +23,5 @@
   (flow "makes request using http component"
     [http (state-flow.api/get-state :http)]
     (-> http
-        (components.http/request commands)
+        (clj-http/request commands)
         state-flow.api/return)))
