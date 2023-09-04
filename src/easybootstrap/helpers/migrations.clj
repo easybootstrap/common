@@ -1,7 +1,7 @@
 (ns easybootstrap.helpers.migrations
-  (:require [migratus.core :as migratus]
-            [next.jdbc :as jdbc]
-            [easybootstrap.components.config :as config])
+  (:require [easybootstrap.components.config :as config]
+            [migratus.core :as migratus]
+            [next.jdbc :as jdbc])
   (:gen-class))
 
 (defn get-connection []
