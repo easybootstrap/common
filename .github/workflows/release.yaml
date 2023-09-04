@@ -45,5 +45,5 @@ jobs:
       - name: Deploy on clojars
         run: clojure -T:build deploy :version \"${VERSION}\"
         env:
-          CLOJARS_USERNAME: ${{ secrets.DEPLOY_USERNAME }}
+          CLOJARS_USERNAME: ${{ secrets.DEPLOY_USER }}
           CLOJARS_PASSWORD: ${{ secrets.DEPLOY_PASSWORD }}
