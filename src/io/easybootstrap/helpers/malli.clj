@@ -1,4 +1,4 @@
-(ns easybootstrap.helpers.malli
+(ns io.easybootstrap.helpers.malli
   (:require [malli.dev.pretty :as pretty]
             [malli.instrument :as mi]))
 

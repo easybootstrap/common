@@ -1,4 +1,4 @@
-(ns easybootstrap.test.state-flow.server
+(ns io.easybootstrap.aux.server
   (:require [cheshire.core :as json]
             [clojure.string :as string]
             [io.pedestal.test :as pt]

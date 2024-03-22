@@ -1,14 +1,14 @@
-(ns easybootstrap.components.router-test
+(ns io.easybootstrap.components.router-test
   (:require [clojure.test :refer [use-fixtures]]
             [com.stuartsierra.component :as component]
-            [easybootstrap.components.clj-http :as clj-http]
-            [easybootstrap.components.config :as config]
-            [easybootstrap.components.database :as database]
-            [easybootstrap.components.router :as router]
-            [easybootstrap.components.server :as component.server]
-            [easybootstrap.helpers.malli :as helpers.malli]
-            [easybootstrap.test.state-flow.server :as state-flow.server]
-            [integration.easybootstrap.util :as util]
+            [integration.io.easybootstrap.utils :as util]
+            [io.easybootstrap.aux.server :as state-flow.server]
+            [io.easybootstrap.components.clj-http :as clj-http]
+            [io.easybootstrap.components.config :as config]
+            [io.easybootstrap.components.database :as database]
+            [io.easybootstrap.components.router :as router]
+            [io.easybootstrap.components.server :as component.server]
+            [io.easybootstrap.helpers.malli :as helpers.malli]
             [state-flow.api :refer [defflow]]
             [state-flow.assertions.matcher-combinators :refer [match?]]
             [state-flow.core :as state-flow :refer [flow]]))

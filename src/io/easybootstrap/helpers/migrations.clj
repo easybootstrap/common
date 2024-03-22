@@ -1,5 +1,5 @@
-(ns easybootstrap.helpers.migrations
-  (:require [easybootstrap.components.config :as config]
+(ns io.easybootstrap.helpers.migrations
+  (:require [io.easybootstrap.components.config :as config]
             [migratus.core :as migratus]
             [next.jdbc :as jdbc])
   (:gen-class))

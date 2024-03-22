@@ -1,7 +1,7 @@
-(ns unit.easybootstrap.components.clj-http-test
+(ns unit.io.easybootstrap.components.clj-http-test
   (:require [clojure.test :refer [deftest is testing]]
             [com.stuartsierra.component :as component]
-            [easybootstrap.components.clj-http :as clj-http]
+            [io.easybootstrap.components.clj-http :as clj-http]
             [matcher-combinators.test :refer [match?]]))
 
 (defn- create-and-start-system!

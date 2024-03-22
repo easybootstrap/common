@@ -1,5 +1,5 @@
-(ns easybootstrap.test.state-flow.db
-  (:require [easybootstrap.components.database :as database]
+(ns io.easybootstrap.aux.db
+  (:require [io.easybootstrap.components.database :as c.database]
             [state-flow.api :as state-flow.api]
             [state-flow.core :as state-flow :refer [flow]]))
 
@@ -8,5 +8,5 @@
   (flow "makes database execution"
     [database (state-flow.api/get-state :database)]
     (-> database
-        (database/execute commands)
+        (c.database/execute commands)
         state-flow.api/return)))

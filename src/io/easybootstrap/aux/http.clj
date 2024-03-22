@@ -1,5 +1,5 @@
-(ns easybootstrap.test.state-flow.http
-  (:require [easybootstrap.components.clj-http :as clj-http]
+(ns io.easybootstrap.aux.http
+  (:require [io.easybootstrap.components.clj-http :as clj-http]
             [state-flow.api :as state-flow.api]
             [state-flow.core :as state-flow :refer [flow]]))
 
