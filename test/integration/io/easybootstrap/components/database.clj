@@ -1,9 +1,9 @@
 (ns io.easybootstrap.components.database
   (:require [com.stuartsierra.component :as component]
+            [integration.io.easybootstrap.utils :as util]
+            [io.easybootstrap.aux.db :as state-flow.db]
             [io.easybootstrap.components.config :as config]
             [io.easybootstrap.components.database :as database]
-            [io.easybootstrap.aux.db :as state-flow.db]
-            [integration.io.easybootstrap.utils :as util]
             [state-flow.api :refer [defflow]]
             [state-flow.assertions.matcher-combinators :refer [match?]]
             [state-flow.core :as state-flow :refer [flow]]))
