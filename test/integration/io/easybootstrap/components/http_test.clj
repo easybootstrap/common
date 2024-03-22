@@ -1,10 +1,10 @@
-(ns integration.easybootstrap.components.http-test
+(ns io.easybootstrap.components.http-test
   (:require [com.stuartsierra.component :as component]
-            [easybootstrap.components.clj-http :as clj-http]
-            [easybootstrap.components.config :as config]
-            [easybootstrap.components.server :as component.server]
-            [easybootstrap.test.state-flow.http :as state-flow.http]
-            [integration.easybootstrap.util :as util]
+            [io.easybootstrap.components.clj-http :as clj-http]
+            [io.easybootstrap.components.config :as config]
+            [io.easybootstrap.components.server :as component.server]
+            [io.easybootstrap.aux.http :as state-flow.http]
+            [integration.io.easybootstrap.utils :as util]
             [state-flow.api :refer [defflow]]
             [state-flow.assertions.matcher-combinators :refer [match?]]
             [state-flow.core :as state-flow :refer [flow]]))

@@ -1,8 +1,8 @@
-(ns easybootstrap.components.clj-http
+(ns io.easybootstrap.components.clj-http
   (:require [clj-http.client :as http]
             [clj-http.util :as http-util]
             [com.stuartsierra.component :as component]
-            [easybootstrap.helpers.logs :as logs]))
+            [io.easybootstrap.helpers.logs :as logs]))
 
 (defn request-fn
   "Accepts :req which should be a map containing the following keys:

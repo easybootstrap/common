@@ -1,6 +1,6 @@
-(ns easybootstrap.components.router
+(ns io.easybootstrap.components.router
   (:require [com.stuartsierra.component :as component]
-            [easybootstrap.helpers.logs :as logs]
+            [io.easybootstrap.helpers.logs :as logs]
             [muuntaja.core :as m]
             [reitit.coercion.malli :as reitit.malli]
             [reitit.dev.pretty :as pretty]

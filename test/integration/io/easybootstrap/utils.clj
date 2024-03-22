@@ -1,6 +1,6 @@
-(ns integration.easybootstrap.util
+(ns integration.io.easybootstrap.utils
   (:require [com.stuartsierra.component :as component]
-            [easybootstrap.helpers.logs :as logs]
+            [io.easybootstrap.helpers.logs :as logs]
             [pg-embedded-clj.core :as pg-emb]))
 
 (defn- create-and-start-components! [components]

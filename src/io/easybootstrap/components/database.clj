@@ -1,6 +1,6 @@
-(ns easybootstrap.components.database
+(ns io.easybootstrap.components.database
   (:require [com.stuartsierra.component :as component]
-            [easybootstrap.helpers.logs :as logs]
+            [io.easybootstrap.helpers.logs :as logs]
             [next.jdbc :as jdbc]
             [next.jdbc.connection :as connection])
   (:import (com.zaxxer.hikari HikariDataSource)))

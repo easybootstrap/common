@@ -1,4 +1,4 @@
-(ns easybootstrap.components.config
+(ns io.easybootstrap.components.config
   (:require [aero.core :as aero]
             [clojure.java.io :as io]
             [com.stuartsierra.component :as component]))
